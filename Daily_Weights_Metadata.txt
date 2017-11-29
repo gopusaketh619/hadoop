@@ -1,0 +1,290 @@
+
+
+---URL DIM---
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GAP_US_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=1',NULL,'US','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GAP_CAN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=1',NULL,'CAN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GAP_EU_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=1',NULL,'EU','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GAP_JPN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=1',NULL,'JPN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GO_US_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=4',NULL,'US','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GO_CAN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=4',NULL,'CAN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GO_EU_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=4',NULL,'EU','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_GO_JPN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=4',NULL,'JPN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_BR_US_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=2',NULL,'US','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_BR_CAN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=2',NULL,'CAN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_BR_JPN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=2',NULL,'JPN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_BRFS_US_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=5',NULL,'US','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_BRFS_CAN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=5',NULL,'CAN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+
+insert into url_dim 
+(subj_area,domain_name,port,url,brand,market,channel,startDate,endDate,status,user_request,Process_Status,processtime,custom_col)
+values 
+('tdlyw_BRFS_JPN_RTL','pgphxcfgap032.americas.gap.com',0,'/config/api/analytic/daily-weights/search?brandId=5',NULL,'JPN','RTL',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---btch_cntl_master---
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GAP_US_RTL',NULL,NULL,'db_prc_stg','tdlyw_gap_us_rtl_stg',NULL,NULL,'tdlyw_gap_us_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GAP_CAN_RTL',NULL,NULL,'db_prc_stg','tdlyw_gap_can_rtl_stg',NULL,NULL,'tdlyw_gap_can_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GAP_EU_RTL',NULL,NULL,'db_prc_stg','tdlyw_gap_eu_rtl_stg',NULL,NULL,'tdlyw_gap_eu_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GAP_JPN_RTL',NULL,NULL,'db_prc_stg','tdlyw_gap_jpn_rtl_stg',NULL,NULL,'tdlyw_gap_jpn_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GO_US_RTL',NULL,NULL,'db_prc_stg','tdlyw_go_us_rtl_stg',NULL,NULL,'tdlyw_go_us_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GO_CAN_RTL',NULL,NULL,'db_prc_stg','tdlyw_go_can_rtl_stg',NULL,NULL,'tdlyw_go_can_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GO_EU_RTL',NULL,NULL,'db_prc_stg','tdlyw_go_eu_rtl_stg',NULL,NULL,'tdlyw_go_eu_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_GO_JPN_RTL',NULL,NULL,'db_prc_stg','tdlyw_go_jpn_rtl_stg',NULL,NULL,'tdlyw_go_jpn_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_BR_US_RTL',NULL,NULL,'db_prc_stg','tdlyw_br_us_rtl_stg',NULL,NULL,'tdlyw_br_us_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_BR_CAN_RTL',NULL,NULL,'db_prc_stg','tdlyw_br_can_rtl_stg',NULL,NULL,'tdlyw_br_can_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_BR_JPN_RTL',NULL,NULL,'db_prc_stg','tdlyw_br_jpn_rtl_stg',NULL,NULL,'tdlyw_br_jpn_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_BRFS_US_RTL',NULL,NULL,'db_prc_stg','tdlyw_brfs_us_rtl_stg',NULL,NULL,'tdlyw_brfs_us_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_BRFS_CAN_RTL',NULL,NULL,'db_prc_stg','tdlyw_brfs_can_rtl_stg',NULL,NULL,'tdlyw_br_can_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+insert into btch_cntl_master 
+(BTCH_ID,SUBJ_AREA,ROOT_DIR,SRC_SYS,TARGET,TGT_TBL_N,SOURCE,SOURCE_DIR,SRC_TBL_N,MASTER_JOB_N,COLS,PRTN_KEY,WRTE_MODE,RFSH_TYPE,WHRE_COL,LAST_KEY,OFFSET_VAL,ACTV_F,ARC_LIM,FILLER_1,FILLER_2,FILLER_3,CRTE_TMSP,UPDT_TMSP,INCR_COL_N,LAST_RUN_BTCH_ID,LAST_RUN_LOAD_TMSP,DFLT_PRLL,TRFM_MRGE_OR_UPDT,DFLT_INS,MAX_RUN_BTCH_ID) 
+values 
+(NULL,'tdlyw_BRFS_JPN_RTL',NULL,NULL,'db_prc_stg','tdlyw_brfs_jpn_rtl_stg',NULL,NULL,'tdlyw_brfs_jpn_rtl_stg',NULL,"['category', 'fiscalDay', 'fiscalYear', 'id', 'merchandisingStrategyId', 'name', 'runId', 'state', 'taxonomyNodeId', 'value']",NULL,'overwrite',NULL,'',NULL,NULL,NULL,NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL);
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---schema_cntl_master---
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (66,'tdlyw_GAP_US_RTL','tdlyw_gap_us_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (67,'tdlyw_GAP_CAN_RTL','tdlyw_gap_can_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (68,'tdlyw_GAP_EU_RTL','tdlyw_gap_eu_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (69,'tdlyw_GAP_JPN_RTL','tdlyw_gap_jpn_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (70,'tdlyw_GO_US_RTL','tdlyw_go_us_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (71,'tdlyw_GO_CAN_RTL','tdlyw_go_can_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (72,'tdlyw_GO_EU_RTL','tdlyw_go_eu_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (73,'tdlyw_GO_JPN_RTL','tdlyw_go_jpn_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (74,'tdlyw_BR_US_RTL','tdlyw_br_us_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (75,'tdlyw_BR_CAN_RTL','tdlyw_br_can_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (77,'tdlyw_BR_JPN_RTL','tdlyw_br_jpn_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (78,'tdlyw_BRFS_US_RTL','tdlyw_brfs_us_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (79,'tdlyw_BRFS_CAN_RTL','tdlyw_brfs_can_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+insert into schema_cntl_master 
+(schema_key,subj_area,tgt_tbl_n,schema_content) 
+values (81,'tdlyw_BRFS_JPN_RTL','tdlyw_brfs_jpn_rtl_stg','{"fields":[{"metadata":{},"name":"category","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"runId","nullable":true,"type":"string"},{"metadata":{},"name":"state","nullable":true,"type":"long"},{"metadata":{},"name":"merchandisingStrategyId","nullable":true,"type":"long"},{"metadata":{},"name":"taxonomyNodeId","nullable":true,"type":"string"},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"weights","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"fiscalDay","nullable":true,"type":"long"},{"metadata":{},"name":"fiscalYear","nullable":true,"type":"long"},{"metadata":{},"name":"value","nullable":true,"type":"double"}],"type":"struct"},"type":"array"}}],"type":"struct"}');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---sql_cntl_master---
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4044,'tdlyw_GAP_US_RTL','tdlyw_gap_us_rtl_stg','tdlyw_gap_us_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4045,'tdlyw_GAP_CAN_RTL','tdlyw_gap_can_rtl_stg','tdlyw_gap_can_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4046,'tdlyw_GAP_EU_RTL','tdlyw_gap_eu_rtl_stg','tdlyw_gap_eu_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4047,'tdlyw_GAP_JPN_RTL','tdlyw_gap_jpn_rtl_stg','tdlyw_gap_jpn_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4048,'tdlyw_GO_US_RTL','tdlyw_go_us_rtl_stg','tdlyw_go_us_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4049,'tdlyw_GO_CAN_RTL','tdlyw_go_can_rtl_stg','tdlyw_go_can_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4050,'tdlyw_GO_EU_RTL','tdlyw_go_eu_rtl_stg','tdlyw_go_eu_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4051,'tdlyw_GO_JPN_RTL','tdlyw_go_jpn_rtl_stg','tdlyw_go_jpn_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4052,'tdlyw_BR_US_RTL','tdlyw_br_us_rtl_stg','tdlyw_br_us_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4053,'tdlyw_BR_CAN_RTL','tdlyw_br_can_rtl_stg','tdlyw_br_can_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4055,'tdlyw_BR_JPN_RTL','tdlyw_br_jpn_rtl_stg','tdlyw_br_jpn_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4056,'tdlyw_BRFS_US_RTL','tdlyw_brfs_us_rtl_stg','tdlyw_brfs_us_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4057,'tdlyw_BRFS_CAN_RTL','tdlyw_brfs_can_rtl_stg','tdlyw_brfs_can_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+insert into sql_cntl_master 
+(sql_key,subj_area,src_tbl_n,tgt_tbl_n,interface_type,interface_desc,step_no,sql_type,sql_text) 
+values
+(4059,'tdlyw_BRFS_JPN_RTL','tdlyw_brfs_jpn_rtl_stg','tdlyw_brfs_jpn_rtl_stg','raw','daily_weight-static url to hive table',1,'insert query to hive table','select category,id,merchandisingStrategyId,name,runId,state,taxonomyNodeId,weightsTbl.fiscalDay,weightsTbl.fiscalYear,weightsTbl.value from temp lateral view explode (weights) weightsAlias as weightsTbl');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
